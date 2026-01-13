@@ -12,12 +12,12 @@ if "grade" not in st.session_state:
         3: 0
     }
 
-if "sports" not in st.session_state:
+if "namews" not in st.session_state:
     st.session_state.sports = {
-        "Футбол": 0,
-        "Баскетбол": 0,
-        "Волейбол": 0,
-        "Плуване": 0
+        "eshref": 0,
+        "ivan": 0,
+        "mitaka": 0,
+        "x": 0
     }
 
 st.subheader("Избери любими неща")
